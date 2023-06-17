@@ -1,0 +1,290 @@
+nav {
+    border-bottom: 2px solid #0DA6DF;
+
+    img {
+        object-fit: contain;
+        padding: 10px 0;
+    }
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    .overlay {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    ._info {
+        background: #ffffffe0;
+        padding: 15px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        // &:before {
+        //     content: '';
+        //     background: #00000026;
+        //     height: 100%;
+        //     width: 100%;
+        //     position: absolute;
+        // }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 0;
+            z-index: 999
+        }
+
+        span {
+            font-weight: bold;
+            color: #0DA6DF;
+            font-size: 20px;
+            z-index: 999
+        }
+
+    }
+
+    img {
+        width: 50px;
+        margin-top: 70px;
+    }
+}
+
+.about_ {
+    padding: 50px 15px;
+
+    .about_us {
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #707070;
+        padding: 50px 25px;
+        position: relative;
+
+        h4 {
+            font-size: 20px;
+            color: #000;
+        }
+
+        span {
+            font-size: 20px;
+            color: #0DA6DF;
+            font-weight: bold;
+        }
+    }
+
+    .star-one {
+        position: absolute;
+        top: -32px;
+        right: 90px;
+
+        img:last-of-type {
+            top: 45px;
+            right: 50px;
+            position: absolute;
+        }
+    }
+
+    .star-two {
+        position: absolute;
+        bottom: -18px;
+        left: 90px;
+
+        img:last-of-type {
+            bottom: 25px;
+            left: 30px;
+            position: absolute;
+        }
+    }
+
+    .about_us_desc {
+        text-align: center;
+        background-image: linear-gradient(to top, #0da6df45, #FFFFFF);
+        padding-bottom: 20px;
+
+        @media(max-width: 991px) {
+            margin-top: 35px
+        }
+
+        .btns_ {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+
+            button {
+                width: 135px;
+                border-radius: 20px;
+                height: 30px;
+                color: #fff;
+                padding: 0 0px;
+            }
+
+            button:first-of-type {
+                background-color: #008ED2
+            }
+
+            button:last-of-type {
+                background-color: #D4151B
+            }
+        }
+
+        ._anchor {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-direction: row;
+            align-items: center;
+
+            span:first-of-type {
+                color: #000;
+                border-radius: 14px;
+                background-color: #fff;
+                border: 1px solid #000;
+                padding: 10px;
+                width: 220px;
+            }
+
+            a {
+                color: #fff;
+                border-radius: 13px;
+                background-color: #008ED2;
+                border: 1px solid #008ED2;
+                padding: 7px 16px;
+                height: 43px;
+                line-height: 29px;
+            }
+
+        }
+    }
+}
+
+.categories {
+    text-align: center;
+    .info_catg{
+        text-align: center;
+        padding: 15px;
+        p{
+            color: #000;
+            margin: 0px 0;
+            font-size: 25px;
+        }
+        span{
+            color: #008ED2;
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+    .item_ {
+        border: 1px solid #000;
+        border-radius: 23px;
+        width: 150px;
+        text-align: center;
+        margin: 15px 0; 
+        box-shadow: #0d6efd47 0px 7px 13px 0px;
+
+        span:first-of-type {
+            background: #fff;
+            border-radius: 23px 23px 0 0;
+            padding: 20px;
+            border-bottom: 1px solid #707070;
+            color: #008ED2;
+            font-weight: bold;;
+        }
+
+        span:last-of-type {
+            background: #0DA6DF;
+            border-radius: 0 0 23px 23px;
+            padding: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+    }
+    .col-6,.col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.products{
+    padding: 30px 0;
+    .products-info{
+        p{
+            color: #000;
+            margin: 0;
+            font-size: 25px;
+        }
+        span{
+            color: #008ED2;
+            font-size: 25px;
+            font-weight: bold
+        }
+    }
+    .product-item{
+        margin: 35px 0;
+        a{
+            background-color: #008ED2;
+            color: #fff !important;
+            padding: 8px 15px;
+            width: 120px;
+            border-radius: 14px
+        }
+    }
+}
+.oily-products{
+    padding: 50px 0;
+    .arrow{
+        margin-bottom: 50px ;
+        svg{
+            color: #000;
+            font-size: 30px;
+        }
+    }
+    .product-list{
+        margin: 35px 0;
+        .product-img{
+            border: 2px solid #008ED2;
+            border-radius: 17px;
+            img{
+                width: 175px;
+            }
+        }
+        p{
+            color: #000;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        span{
+            display: block;
+            font-size: 18px;
+        }
+        span:not(:first-of-type){
+            color: #008ED2
+        }
+    }
+}
