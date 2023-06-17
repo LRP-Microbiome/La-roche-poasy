@@ -336,3 +336,11 @@ footer {
         margin-inline-start: 5px
     }
 }
+@media(max-width: 767px){
+    .about_ .about_us_desc .btns_ button {
+        padding: 0.3rem 1.5rem 0.2rem 1.5rem;
+    }
+    ._anchor a ,._anchor span:first-of-type{
+        padding: 0.6rem 1rem 0.4rem 1rem;
+    }
+}
