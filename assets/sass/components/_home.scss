@@ -82,6 +82,7 @@ header {
         border: 1px solid #707070;
         padding: 50px 25px;
         position: relative;
+        margin: 0 15px;
 
         h4 {
             font-size: 20px;
@@ -138,9 +139,9 @@ header {
             button {
                 width: 135px;
                 border-radius: 20px;
-                height: 30px;
+                // height: 30px;
                 color: #fff;
-                padding: 0 0px;
+                padding: 5px 0px;
             }
 
             button:first-of-type {
@@ -151,60 +152,62 @@ header {
                 background-color: #D4151B
             }
         }
-
-        ._anchor {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-direction: row;
-            align-items: center;
-
-            span:first-of-type {
-                color: #000;
-                border-radius: 14px;
-                background-color: #fff;
-                border: 1px solid #000;
-                padding: 10px;
-                width: 220px;
-            }
-
-            a {
-                color: #fff;
-                border-radius: 13px;
-                background-color: #008ED2;
-                border: 1px solid #008ED2;
-                padding: 7px 16px;
-                height: 43px;
-                line-height: 29px;
-            }
-
-        }
     }
+}
+
+._anchor {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+
+    span:first-of-type {
+        color: #000;
+        border-radius: 14px;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 10px;
+        width: 220px;
+    }
+
+    a {
+        color: #fff;
+        border-radius: 13px;
+        background-color: #008ED2;
+        border: 1px solid #008ED2;
+        padding: 10px 16px;
+    }
+
 }
 
 .categories {
     text-align: center;
-    .info_catg{
+
+    .info_catg {
         text-align: center;
         padding: 15px;
-        p{
+
+        p {
             color: #000;
             margin: 0px 0;
             font-size: 25px;
         }
-        span{
+
+        span {
             color: #008ED2;
             font-weight: bold;
             font-size: 25px;
         }
     }
+
     .item_ {
         border: 1px solid #000;
         border-radius: 23px;
         width: 150px;
         text-align: center;
-        margin: 15px 0; 
+        margin: 15px 0;
         box-shadow: #0d6efd47 0px 7px 13px 0px;
 
         span:first-of-type {
@@ -213,7 +216,13 @@ header {
             padding: 20px;
             border-bottom: 1px solid #707070;
             color: #008ED2;
-            font-weight: bold;;
+            font-weight: bold;
+
+            height: 80px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         span:last-of-type {
@@ -222,31 +231,43 @@ header {
             padding: 20px;
             font-weight: bold;
             color: #fff;
+            height: 80px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
-    .col-6,.col-12{
+
+    .col-6,
+    .col-12 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
-.products{
+
+.products {
     padding: 30px 0;
-    .products-info{
-        p{
+
+    .products-info {
+        p {
             color: #000;
             margin: 0;
             font-size: 25px;
         }
-        span{
+
+        span {
             color: #008ED2;
             font-size: 25px;
             font-weight: bold
         }
     }
-    .product-item{
+
+    .product-item {
         margin: 35px 0;
-        a{
+
+        a {
             background-color: #008ED2;
             color: #fff !important;
             padding: 8px 15px;
@@ -255,36 +276,61 @@ header {
         }
     }
 }
-.oily-products{
+
+.oily-products {
     padding: 25px 0;
-    .arrow{
-        margin-bottom: 25px ;
-        svg{
+
+    .arrow {
+        margin-bottom: 25px;
+
+        svg {
             color: #000;
             font-size: 30px;
         }
     }
-    .product-list{
+
+    .product-list {
         margin: 35px 0;
-        .product-img{
+
+        .product-img {
             border: 2px solid #008ED2;
             border-radius: 17px;
-            img{
+
+            img {
                 width: 140px;
+                border-radius: 18px;
             }
         }
-        p{
+
+        p {
             color: #000;
             font-weight: bold;
             margin-bottom: 5px;
             font-size: 18px;
         }
-        span{
+
+        span {
             display: block;
             font-size: 17px;
         }
-        span:not(:first-of-type){
+
+        span:not(:first-of-type) {
             color: #008ED2
         }
+    }
+}
+
+footer {
+    padding-top: 15px;
+    background-image: linear-gradient(to bottom, #0da6df45, #FFFFFF);
+
+    span {
+        color: #000;
+        font-weight: bold;
+    }
+
+    svg {
+        color: #1377D4;
+        margin-inline-start: 5px
     }
 }

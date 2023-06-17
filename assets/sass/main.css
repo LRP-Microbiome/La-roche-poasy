@@ -154,6 +154,7 @@ header img {
   border: 1px solid #707070;
   padding: 50px 25px;
   position: relative;
+  margin: 0 15px;
 }
 
 .about_ .about_us h4 {
@@ -223,9 +224,8 @@ header img {
 .about_ .about_us_desc .btns_ button {
   width: 135px;
   border-radius: 20px;
-  height: 30px;
   color: #fff;
-  padding: 0 0px;
+  padding: 5px 0px;
 }
 
 .about_ .about_us_desc .btns_ button:first-of-type {
@@ -236,8 +236,8 @@ header img {
   background-color: #D4151B;
 }
 
-.about_ .about_us_desc ._anchor {
-  margin-top: 20px;
+._anchor {
+  margin-top: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,7 +254,7 @@ header img {
           align-items: center;
 }
 
-.about_ .about_us_desc ._anchor span:first-of-type {
+._anchor span:first-of-type {
   color: #000;
   border-radius: 14px;
   background-color: #fff;
@@ -263,14 +263,12 @@ header img {
   width: 220px;
 }
 
-.about_ .about_us_desc ._anchor a {
+._anchor a {
   color: #fff;
   border-radius: 13px;
   background-color: #008ED2;
   border: 1px solid #008ED2;
-  padding: 7px 16px;
-  height: 43px;
-  line-height: 29px;
+  padding: 10px 16px;
 }
 
 .categories {
@@ -311,6 +309,17 @@ header img {
   border-bottom: 1px solid #707070;
   color: #008ED2;
   font-weight: bold;
+  height: 80px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .categories .item_ span:last-of-type {
@@ -319,9 +328,21 @@ header img {
   padding: 20px;
   font-weight: bold;
   color: #fff;
+  height: 80px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.categories .col-6, .categories .col-12 {
+.categories .col-6,
+.categories .col-12 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,6 +406,7 @@ header img {
 
 .oily-products .product-list .product-img img {
   width: 140px;
+  border-radius: 18px;
 }
 
 .oily-products .product-list p {
@@ -401,5 +423,22 @@ header img {
 
 .oily-products .product-list span:not(:first-of-type) {
   color: #008ED2;
+}
+
+footer {
+  padding-top: 15px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0da6df45), to(#FFFFFF));
+  background-image: linear-gradient(to bottom, #0da6df45, #FFFFFF);
+}
+
+footer span {
+  color: #000;
+  font-weight: bold;
+}
+
+footer svg {
+  color: #1377D4;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
 }
 /*# sourceMappingURL=main.css.map */
