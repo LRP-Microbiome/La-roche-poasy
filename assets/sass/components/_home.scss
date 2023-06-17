@@ -137,11 +137,12 @@ header {
             align-items: center;
 
             button {
-                width: 135px;
+                // width: 135px;
                 border-radius: 20px;
                 // height: 30px;
                 color: #fff;
-                padding: 5px 0px;
+                padding: 5px 25px;
+                text-align: center;
             }
 
             button:first-of-type {
@@ -168,8 +169,8 @@ header {
         border-radius: 14px;
         background-color: #fff;
         border: 1px solid #000;
-        padding: 10px;
-        width: 220px;
+        padding: 10px 15px;
+        text-align: center;
     }
 
     a {
@@ -178,6 +179,7 @@ header {
         background-color: #008ED2;
         border: 1px solid #008ED2;
         padding: 10px 16px;
+        text-align: center;
     }
 
 }
@@ -270,8 +272,8 @@ header {
         a {
             background-color: #008ED2;
             color: #fff !important;
-            padding: 8px 15px;
-            width: 120px;
+            padding: 8px 25px;
+            text-align: center;
             border-radius: 14px
         }
     }
