@@ -410,6 +410,9 @@ header img {
 .oily-products .product-list .product-img img {
   width: 140px;
   border-radius: 18px;
+  height: 210PX;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .oily-products .product-list p {
