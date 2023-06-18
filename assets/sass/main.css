@@ -410,9 +410,11 @@ header img {
 .oily-products .product-list .product-img img {
   width: 140px;
   border-radius: 18px;
-  height: 210PX;
+  height: 235PX;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .oily-products .product-list p {
@@ -452,7 +454,8 @@ footer svg {
   .about_ .about_us_desc .btns_ button {
     padding: 0.6rem 1.5rem 0.2rem 1.5rem;
   }
-  ._anchor a, ._anchor span:first-of-type {
+  ._anchor a,
+  ._anchor span:first-of-type {
     padding: 0.7rem 1rem 0.4rem 1rem;
   }
   .products .product-item a {
