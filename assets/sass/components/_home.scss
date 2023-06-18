@@ -146,11 +146,13 @@ header {
             }
 
             button:first-of-type {
-                background-color: #008ED2
+                color: #008ED2;
+                font-weight: bold
             }
 
             button:last-of-type {
-                background-color: #D4151B
+                color: #D4151B;
+                font-weight: bold
             }
         }
     }
@@ -228,7 +230,7 @@ header {
         }
 
         span:last-of-type {
-            background: #0DA6DF;
+            background: #008ED2;
             border-radius: 0 0 23px 23px;
             padding: 20px;
             font-weight: bold;

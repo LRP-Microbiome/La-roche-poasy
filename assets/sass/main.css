@@ -229,11 +229,13 @@ header img {
 }
 
 .about_ .about_us_desc .btns_ button:first-of-type {
-  background-color: #008ED2;
+  color: #008ED2;
+  font-weight: bold;
 }
 
 .about_ .about_us_desc .btns_ button:last-of-type {
-  background-color: #D4151B;
+  color: #D4151B;
+  font-weight: bold;
 }
 
 ._anchor {
@@ -324,7 +326,7 @@ header img {
 }
 
 .categories .item_ span:last-of-type {
-  background: #0DA6DF;
+  background: #008ED2;
   border-radius: 0 0 23px 23px;
   padding: 20px;
   font-weight: bold;
